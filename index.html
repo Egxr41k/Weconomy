@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Weconomy</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/d3@5.6.0/dist/d3.min.js"></script>   
+    <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.min.js"></script>
+    <title>Weconomy</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div>
+                <h1 class="logo">Weconomy</h1>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <svg class="map"></svg>
+            <div class="country-info">
+                <div class="country-text">
+                    <h2 class="name">вибрана країна: </h2>
+                    <p class="population">населення: </p>
+                    <p class="gdp">ввп: </p>
+                    <p class="unemmploymentprc">відсоток безробіття: </p>
+                    <p class="poorprc">відсоток бідності: </p>
+                    <p class="export">експорт: </p>
+                    <p class="import">імпорт: </p>
+                    <p class="inflation">інфляція: </p>
+                    <p> приріст ввп у відсотках за останні 10 років</p>
+                </div>
+                <svg height="400" width="800" class="chart"></svg>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+
+        </div>
+    </footer>
+    <script src="countries.js"></script>
+    <script src="index.js"></script>
+ </body>
+</html>
