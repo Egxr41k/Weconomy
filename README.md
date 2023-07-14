@@ -3,7 +3,7 @@ Single Page application that allows to discover the economic stats of a differen
 
 Now only the 20 largest countries(by area) are available.
 
-##!!comercical project!!
+## !!comercical project!!
 ![Preview](https://github.com/Egxr41k/Weconomy/blob/master/sample.png?raw=true)
 
 All information is taken from open sources and is contained in 20 classes, one for each country:
